@@ -75,7 +75,7 @@ public class A {
 		}
 		else {
 			
-			while (temp!=head) {
+			while (temp.next!=head) {
 				System.out.println(temp.data);
 				temp=temp.next;
 			}
